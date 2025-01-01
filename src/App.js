@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDOM from 'react-dom/client';
+
 import { ThemeProvider } from "@material-ui/core/styles";
 import { theme } from "./utils/theme";
 import "./assets/css/style.css";
