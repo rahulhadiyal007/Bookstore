@@ -1,4 +1,5 @@
-import { makeStyles } from "@material-ui/core/styles";
+
+import { makeStyles } from "@material-ui/core";
 import { colors } from "../../constant/constant";
 
 const footerStyle = makeStyles((theme) => ({
@@ -7,7 +8,7 @@ const footerStyle = makeStyles((theme) => ({
       backgroundColor: "#f9f9f9",
       padding: "49px 0",
       "@media (max-width: 991px)": {
-        padding: "40px 0"
+        padding: "40px 0",
       },
       "& .top-footer": {
         padding: "0 0 50px",
